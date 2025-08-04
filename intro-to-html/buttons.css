@@ -1,0 +1,53 @@
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subcribe-btn{
+    background-color: #CC0000;
+    font-size: 14px;
+    border: none;
+    color: white;
+    padding: 10px 16px 10px 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 9px; 
+    transition: 0.15s ease;
+}
+.subcribe-btn:hover{
+    opacity: 0.8;
+}
+.subcribe-btn:active{
+    opacity: 0.6;
+}
+.join-btn{
+    font-size: 14px;
+    padding: 9px 15px 9px 15px;
+    border: 1px solid #065FD4;
+    border-radius: 2px;
+    color: #065FD4;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+.join-btn:hover{
+    background-color: #065FD4;
+    color: white;
+}
+.join-btn:active{
+    opacity: 0.8;
+}
+.tweet-btn{
+    background-color: #1D9BF0;
+    border: none;
+    padding: 9px 16px 9px 16px;
+    margin-left: 9px;
+    font-size: 15px;
+    color: white;
+    border-radius: 50px;
+    transition: 0.15s ease;
+    font-weight: bold;
+}
+.tweet-btn:hover{
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.tweet-btn:active{
+    opacity: 0.8;
+}
