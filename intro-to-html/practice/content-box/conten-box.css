@@ -1,66 +1,91 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.parent{
+.parent {
   width: 500px;
-  border: 1px solid gray;
+  border: 2px solid gray;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
-.text{
+.text {
   margin: 10px 0 50px 20px;
 }
 
-.content-box{
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 30px;
+.box-link {
+  text-decoration: none;
+  color: inherit;
 }
 
-.img-container{
+.content-box {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0 10px 30px 10px;
+  transition: 0.5s ease;
+  padding: 10px;
+}
+
+.content-box:hover {
+  border: 1px solid gray;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  background-color: rgb(240, 240, 240);
+  transform: scale(1.1);
+}
+
+.content-box:active {
+  opacity: 0.8;
+}
+
+.img-container {
   height: 70px;
   margin: 0 0 0 20px;
   border: 1px solid gray;
   border-radius: 35px;
 }
 
-.my-channel{
+.my-channel {
   height: 100%;
   border-radius: 35px;
 }
 
-.info-container{
+.info-container {
   width: 100%;
   margin: 0 20px 0 20px;
 }
 
-.name-time{
+.name-time {
   display: flex;
   justify-content: space-between;
   vertical-align: top;
 }
 
-.name,.time,.about{
+.name,
+.time,
+.about {
   margin-bottom: 7px;
 }
 
-.time,.comment,.text{
+.time,
+.comment,
+.text {
   color: gray;
 }
 
-.name,.about{
+.name,
+.about {
   font-weight: 600;
 }
-
