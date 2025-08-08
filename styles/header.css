@@ -1,8 +1,15 @@
 .header {
+  background-color: white;
   height: 55px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  z-index: 100;
 }
 
 .left-section {
@@ -96,4 +103,24 @@
   height: 30px;
   border-radius: 15px;
   cursor: pointer;
+}
+
+.notification-icon-container {
+  position: relative;
+}
+
+.notification-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(204, 0, 0);
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+  font-size: 10px;
 }
