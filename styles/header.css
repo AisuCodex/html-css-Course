@@ -103,6 +103,7 @@
   height: 30px;
   border-radius: 15px;
   cursor: pointer;
+  padding-bottom: 8px;
 }
 
 .notification-icon-container {
