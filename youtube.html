@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/side-bar.css" />
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <div class="left-section">
         <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="" />
         <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
@@ -70,9 +70,9 @@
         </div>
         <img class="my-channel" src="channel-pictures/my-channel.jpg" alt="" />
       </div>
-    </div>
+    </header>
 
-    <div class="side-bar">
+    <nav class="side-bar">
       <div class="sidebar-link">
         <img src="icons/home.svg" alt="" />
         <div>Home</div>
@@ -97,13 +97,16 @@
         <img src="icons/library.svg" alt="" />
         <div>Library</div>
       </div>
-    </div>
+    </nav>
 
-    <div class="video-grid">
+    <main>
+    <section class="video-grid">
       <div class="video-preview">
         <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
           <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="" />
           <div class="video-time">14:20</div>
+          </a>
         </div>
 
         <div class="video-info-grid">
@@ -113,6 +116,15 @@
               src="channel-pictures/channel-1.jpeg"
               alt=""
             />
+            <div class="profile-tooltip">
+              <div class="profile">
+                <img class="picture" src="channel-pictures/channel-1.jpeg" alt="">
+              </div>
+              <div  class="about">
+              <p class="video-author">Marques Brownlee</p>
+              <p class="video-stats">3.4M views &middot; 6 months ago</p>
+              </div>
+            </div>
           </div>
           <div class="video-info">
             <p class="video-title">
@@ -126,8 +138,10 @@
 
       <div class="video-preview">
         <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
           <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="" />
           <div class="video-time">8:22</div>
+          </a>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -147,10 +161,11 @@
 
       <div class="video-preview">
         <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
           <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="" />
           <div class="video-time">9:13</div>
+          </a>
         </div>
-
         <div class="video-info-grid">
           <div class="channel-picture">
             <img
@@ -171,8 +186,10 @@
 
       <div class="video-preview">
         <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
           <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="" />
           <div class="video-time">22:09</div>
+          </a>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -376,6 +393,8 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    </main>
+
   </body>
 </html>
